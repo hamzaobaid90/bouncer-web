@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+  
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+    text-decoration: none;
+    list-style: none;
+    background-color: rgb(85, 85, 99);
+    padding: 23px;
+    color: white;
+    cursor: pointer;
+    justify-content: space-between;
+   
+}
+nav ul :hover{
+    color: brown;
+    font-weight: bold;
+}
+#section2{
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../side-view-professional-guard-man-job.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+   }
+   nav ul a{
+    list-style: none;
+     color: white;
+     text-decoration: none;
+     transition: 1s;
+  }
+  .footer h1{
+    color: white;
+    background-color: rgb(108, 103, 103);
+    text-align: center;
+    border-radius: 2px;
+    padding: 8px;
+    position: sticky;
+     
+    
+}
+#section2 h1{
+    text-align: center;
+    padding-top: 23px;
+    color: white;
+}
+.parent{
+    background-color: rgb(72, 52, 52);
+    border: 2px solid black;
+    padding: 28px;
+    margin: 6px;
+ 
+}
+.parent img{
+    text-align: center;
+    background-size: cover;
+    overflow: hidden;
+    border-radius: 5px;
+    padding-left: 23px;
+}
+.parent p{
+    color: white;
+    padding-top: 2px;
+}
+
+.back-video{
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+
+}
+@media  (min-aspect-ratio:16/9){
+    .back-video{
+        width: 100%;
+        height: auto;
+
+    }
+
+
+
+    
+}
+@media  (max-aspect-ratio:16/9){
+    .back-video{
+        width: 100%;
+        height: auto;
+
+    }
+
+
+
+    
+}

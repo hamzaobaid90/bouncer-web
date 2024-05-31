@@ -1,0 +1,98 @@
+#section2{
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../side-view-professional-guard-man-job.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+   }
+   *{
+    padding: 0;
+    margin: 0;
+    color: white;
+  
+}
+body{
+    background-color: rgb(89, 85, 85);
+}
+nav ul {
+    display: flex;
+    gap: 30px;
+    text-decoration: none;
+    list-style: none;
+    background-color: rgb(85, 85, 99);
+    padding: 23px;
+    color: white;
+    cursor: pointer;
+    justify-content: space-between;
+   
+}
+nav ul :hover{
+    color: brown;
+    font-weight: bold;
+}
+nav ul li {
+    justify-content: space-between;
+     
+ }
+ nav ul a{
+    list-style: none;
+     color: white;
+     text-decoration: none;
+     transition: 1s;
+  }
+  #section2 h1{
+    text-align: center;
+    padding: 25px;
+   
+  }
+  .footer h1{
+    color: white;
+    background-color: rgb(108, 103, 103);
+    text-align: center;
+    border-radius: 2px;
+    padding: 8px;
+    position: sticky;
+     
+    
+}
+#section2{
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../side-view-professional-guard-man-job.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    padding-top: 45px;
+    transition: 2s;
+   }
+
+   #cta{
+    margin: 80px  auto;
+    width: 70%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../hamza.90.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+    border-radius: 8px;
+}
+#cta h1{
+    color: rgb(145, 206, 206);
+    margin-bottom: 40px;
+    padding: 0;
+}
+.herobtn{
+    padding: 8px;
+    margin: 8px;
+    background-color: rgb(66, 22, 22);
+    color: white;
+    border-radius: 11px;
+}
+#section2 a{
+    text-decoration: none;
+}
+#section2 a:hover{
+    color: blue;
+}
